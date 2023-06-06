@@ -7,7 +7,7 @@ export const Checkbox = () => {
   ];
   return (
     <>
-      {lista.map((nome, index) =>
+      {lista.map((nome) =>
         <div className="todo-item">
           <div className="checker">
             <span><input type="checkbox" /></span>

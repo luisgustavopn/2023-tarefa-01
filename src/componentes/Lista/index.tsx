@@ -17,7 +17,7 @@ export const Lista = () => {
 
     return (
         <>
-        {lista.map((lista, index) =>
+        {lista.map((lista) =>
           <li role="presentation" className={`nav-item ${lista.classname}`}>
             <a href="#" className="nav-link">{lista.titulo}</a>
           </li>
